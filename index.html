@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web con lista</title>
+    <style>
+        body{
+            background-color: black;
+            color: aliceblue;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <form>
+        <label for="lista">Nombre</label>
+        <select name="lista" id="lista">
+            <option value="juan">Juan</option>
+            <option value="sofia">Sofia</option>
+            <option value="mario">Mario</option>
+            <option value="maria">María</option>
+        </select>
+        <br><br>
+
+        <label for="madrid">Madrid</label>
+        <input type="checkbox" name="M" id="madrid">
+        <br><br>
+
+        <label for="18">>18</label>
+        <input type="checkbox" name="18" id="18">
+        <br><br>
+
+        <label for="m">Masculino</label>
+        <input type="radio" name="sexo" id="m">
+        <br>
+
+        <label for="f">Femenino</label>
+        <input type="radio" name="sexo" id="f">
+        <br><br>
+
+        <button type="button" onclick="buscar()">Buscar</button>
+        <button type="reset">Borrar</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
