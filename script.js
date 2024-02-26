@@ -1,6 +1,6 @@
 var opcion = document.getElementById("lista").value;
 function buscar(){
-    var opcion = document.getElementById("lista").value;
+    opcion = document.getElementById("lista").value;
 
     switch(opcion){
         case "juan":
