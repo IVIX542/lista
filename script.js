@@ -4,6 +4,7 @@ function buscar(){
 
     switch(opcion){
         case "juan":
+            document.getElementById("18").checked = false;
             document.getElementById("m").checked = true;
             document.getElementById("madrid").checked = true;
             break;
